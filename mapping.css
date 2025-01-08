@@ -1,0 +1,108 @@
+body {
+    color: beige;
+    text-align: center;
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+h1{
+    margin-left: -1100px;
+
+}
+
+#heist{
+    margin-top: -68px;
+    margin-left:240px;
+
+}
+
+img{
+    margin-top: -10px;
+    margin-left: -700px;
+}
+
+#content-mh{
+    margin-left:800px;
+    margin-right:50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -960px;
+    font-size: 20px;
+}
+
+
+/* body { */
+    /* color: beige;
+    text-align: center;
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+#heist {
+    display: inline-block;
+    margin: 0;
+}
+
+#hdiv {
+    display: inline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    margin-left: 20px;
+    height: auto;
+}
+
+#content-mh {
+    padding: 20px;
+    margin-right: -100px;
+    margin-left: 800px;
+    margin-top: -1000px;
+    width: 45%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 10px;
+} */
